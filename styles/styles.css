@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900);
+
+html,body{
+  font-family:"montserrat", Arial, Helvetica, sans-serif;
+  text-align:center;
+  min-width:260px;
+  color:#333;
+  margin: 0;
+  padding: 0;
+}
+
+#page-header{
+  background-color: #0B0B0B;
+  color: #ffffff;
+  padding: 50px;
+  border-bottom: 7px solid #323edd;
+}
+
+#title {
+  font-weight: 400;
+  font-size: 5.5vw;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  letter-spacing: 1.8vw;
+	margin-bottom: 0;
+}
+#sub-title {
+  font-weight: 300;
+  font-size: 2vw;
+  text-transform: uppercase;
+  line-height: 1.25rem;
+  margin-top: 3vw;
+}
+
+.musk-img {
+  width: 60%;
+	max-width: 60%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding: 2.5rem 0 0 0;
+}
+
+#tribute-info {
+  width: 60%;
+  box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+#journey {
+  text-align: left;
+	margin-left: 1.5rem;
+}
+li {
+  text-align: left;
+  padding: 5px;
+  line-height: 25px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0B0B0B;
+  padding: 60px 10px 60px 10px;
+}
+
+.footer-btn {
+    display: flex;
+}
+.footer-text {
+  color: #ffffff;
+}
+#tribute-link {
+  text-decoration: none; 
+  background-color: #ffffff;
+  color: #0B0B0B;
+  padding: 15px 50px 15px 50px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+#tribute-link:hover {
+  background-color: #323edd;
+  color: #ffffff;
+}
+#video-link {
+  text-decoration: none; 
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 15px 50px 15px 50px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+#video-link:hover {
+  background-color: #323edd;
+  color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+@media (max-width: 1025px) {
+  #page-header{
+    padding: 30px 10px 30px 10px;
+  }
+  .musk-img {
+    width: 55%;
+		max-width: 55%;
+    padding: 25px 0 0 0;
+  }
+  #tribute-info {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  
+	#title {
+  font-size: 10vw;
+  letter-spacing: 2vw;
+	}
+	
+	#sub-title {
+  font-size: 4vw;
+  margin-top: 1vw;
+	}
+	
+  .musk-img {
+    width: 95%;
+		max-width: 380px;
+    padding: 50px 0 0 0;
+  }
+	
+  #tribute-info {
+    padding: 10px 0px 25px 0px;
+		margin: 0;
+		width: 95%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 10px 60px 10px;
+  }
+	
+  #video-link {
+    margin-top: 15px; 
+		width: 40%;
+  }
+
+#tribute-link {
+	width: 40%;
+}
+}
