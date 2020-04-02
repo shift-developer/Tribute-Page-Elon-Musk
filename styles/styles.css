@@ -48,15 +48,18 @@ html,body{
 	margin-top: 2rem;
 	margin-bottom: 5rem;
 }
+
 #journey {
   text-align: left;
 	margin-left: 1.5rem;
 }
+
 li {
   text-align: left;
   padding: 5px;
   line-height: 25px;
 }
+
 footer {
   display: flex;
   flex-direction: column;
@@ -67,8 +70,9 @@ footer {
 }
 
 .footer-btn {
-    display: flex;
+  display: flex;
 }
+
 .footer-text {
   color: #ffffff;
 }
@@ -110,6 +114,9 @@ footer p {
 		max-width: 55%;
     padding: 25px 0 0 0;
   }
+  .footer-btn {
+    flex-direction: row;
+  }
   #tribute-info {
     width: 55%;
   }
@@ -144,7 +151,11 @@ footer p {
     flex-direction: column;
     padding: 60px 10px 60px 10px;
   }
-	
+  
+  .footer-btn {
+    flex-direction: column;
+  }
+
   #video-link {
     margin-top: 15px; 
 		width: 40%;
